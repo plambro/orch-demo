@@ -22,7 +22,7 @@ This is currently http traffic sent directly to a VM IP address. In actual produ
 - Export the following environment variables:
     - CREDENTIALS_PATH = path to JSON credentials file
     - PUBLIC_KEY_PATH = path to your ssh public key
-    - PRIVATE_KEY_PATH path to your ssh private key(this does not get transferred anywhere, just instructs terraform which key to use)
+    - PRIVATE_KEY_PATH = path to your ssh private key(this does not get transferred anywhere, just instructs terraform which key to use)
 
 You may also open and edit plan.sh and hardcode these variables.
 
